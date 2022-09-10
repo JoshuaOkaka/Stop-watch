@@ -1,0 +1,108 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(45deg, #1870ed 0, #f18f88 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.container{
+    color: azure;
+    background-color: black;
+    width:700px;
+    height: 200px;
+
+
+}
+
+.timerDisplay{
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-align: center;
+    padding-top: 50px;
+}
+
+span{
+    color: gray;
+    font-size: xx-large;
+    padding-top: 0px;
+    display:inline;
+    align-items: baseline;
+}
+
+
+
+
+
+.label-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.label{
+    font-variant: small-caps;
+    display:flex;
+    width: 70%;
+    flex-direction:row;
+    justify-content: space-around;
+    
+   
+}
+.label p{
+    padding-left:10px ;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    margin: 0;
+
+}
+button{
+    width:200px ;
+    margin-right: 5px;
+    height: 35px;
+    font-size: large;
+    font-family: monospace;
+    
+    font-weight: bolder;
+
+    border: none;
+    position: relative;
+    transition: .4s ease-in;
+    z-index: 1;
+
+
+
+}
+/* button::before,button::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+} */
+
+
+.btn-1:hover{
+    box-shadow: inset -10.5em 0 0 0 #f18f88, inset 10.5em 0 0 0 #f18f88;
+}
+
+.btn-2:hover{
+    border: 2px solid #f18f88;
+    color: #f18f88;
+    background-color:black;
+}
+ .btn-3:hover{
+    box-shadow: 10px 10px 0px #f18f88;
+    top: -5px;
+    left: -5px;
+ }
